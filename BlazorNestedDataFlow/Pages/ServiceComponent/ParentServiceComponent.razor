@@ -1,0 +1,62 @@
+﻿@page "/parentServices"
+@using BlazorNestedDataFlow.Services
+
+<MudPaper Elevation="1" Class="p-2">
+    <h3>Super Parent Component</h3>
+
+    <!-- Add Gift TextField -->
+    <MudStack Row="true">
+        <MudTextField @bind-Value="newGift" Label="New Gift" Variant="Variant.Outlined" Margin="Margin.Dense"/>
+        <MudButton OnClick="AddGift" Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small">Add Gift</MudButton>
+    </MudStack>
+
+    <!-- Display the list of gifts -->
+    <MudList T="string" class="mt-3">
+        @foreach (var gift in gifts)
+        {
+            <MudListItem Dense="true">
+                <MudStack Row="true" Spacing="1" AlignItems="AlignItems.Center">
+                    <MudText>@gift</MudText>
+                    <MudSpacer></MudSpacer>
+                    @* <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" OnClick="() => RemoveGift(gift)"/> *@
+                    <MudButton Color="Color.Error" OnClick="() => RemoveGift(gift)">
+                        Delete
+                        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+                    </MudButton>
+                </MudStack>
+            </MudListItem>
+        }
+    </MudList>
+</MudPaper>
+
+@code {
+    private List<string> gifts;
+    private string newGift;
+
+    // Inject GiftService
+    [Inject] private GiftService GiftService { get; set; }
+
+    protected override void OnInitialized()
+    {
+        // Fetch gifts when the component is initialized
+        gifts = GiftService.GetGifts();
+    }
+
+    // Method to add a new gift to the list
+    private void AddGift()
+    {
+        if (!string.IsNullOrEmpty(newGift))
+        {
+            GiftService.AddGift(newGift);
+            gifts = GiftService.GetGifts();  // Refresh the gift list
+            newGift = string.Empty;  // Clear the text field
+        }
+    }
+
+    // Method to remove a gift from the list
+    private void RemoveGift(string gift)
+    {
+        GiftService.RemoveGift(gift);
+        gifts = GiftService.GetGifts();  // Refresh the gift list
+    }
+}

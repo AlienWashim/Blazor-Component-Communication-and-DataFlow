@@ -1,0 +1,24 @@
+﻿
+<h3>Child 2 Component of CascadingParent</h3>
+
+<MudStack>
+    <MudAlert Severity="Severity.Success">@message</MudAlert>
+</MudStack>
+
+<MudPaper Class="pa-4 mb-3">
+    <MudStack Spacing="2">
+        <!-- Show the gifts list -->
+        <MudList T="string">
+            @foreach (var item in giftList)
+            {
+                <MudListItem>@item</MudListItem>
+            }
+        </MudList>
+    </MudStack>
+</MudPaper>
+
+@code {
+    // Cascading parameters to receive data from parent
+    [CascadingParameter] public string message { get; set; }
+    [CascadingParameter] public List<string> giftList { get; set; }
+}

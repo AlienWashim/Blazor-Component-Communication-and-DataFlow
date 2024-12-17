@@ -1,0 +1,36 @@
+﻿@page "/childServices"
+@using BlazorNestedDataFlow.Services
+
+<h3>Gift Timeline in child component</h3>
+
+<MudTimeline TimelinePosition="TimelinePosition.Start">
+    @foreach (var gift in gifts)
+    {
+        <MudTimelineItem Size="Size.Medium" Color="Color.Info" Elevation="2">
+            <MudCard Outlined="true" Elevation="25">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6">@gift</MudText>
+                    <MudText Typo="Typo.body2">
+                        This is a wonderful gift item added to the list!
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudTimelineItem>
+    }
+</MudTimeline>
+
+
+
+@code {
+
+    // Inject GiftService
+    [Inject] private GiftService GiftService { get; set; }
+
+    private List<string> gifts;
+
+    protected override void OnInitialized()
+    {
+        // Fetch gifts when the component is initialized
+        gifts = GiftService.GetGifts();
+    }
+}

@@ -1,0 +1,80 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorNestedDataFlow
+build_property.RootNamespace = BlazorNestedDataFlow
+build_property.ProjectDir = D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Cascadding/CascadingParent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzY2FkZGluZ1xDYXNjYWRpbmdQYXJlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Cascadding/SuperParentChild2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzY2FkZGluZ1xTdXBlclBhcmVudENoaWxkMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Cascadding/SuperParentChild3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzY2FkZGluZ1xTdXBlclBhcmVudENoaWxkMy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/ServiceComponent/ChildService.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZUNvbXBvbmVudFxDaGlsZFNlcnZpY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/ServiceComponent/ParentServiceComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZUNvbXBvbmVudFxQYXJlbnRTZXJ2aWNlQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Simple ParentChild/SuperParent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2ltcGxlIFBhcmVudENoaWxkXFN1cGVyUGFyZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Pages/Simple ParentChild/SuperParentChild.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2ltcGxlIFBhcmVudENoaWxkXFN1cGVyUGFyZW50Q2hpbGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-uktqlzwxz3
+
+[D:/Washim/Visual Studio Projects/BlazorNestedDataFlow/BlazorNestedDataFlow/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g38p2j2tl9

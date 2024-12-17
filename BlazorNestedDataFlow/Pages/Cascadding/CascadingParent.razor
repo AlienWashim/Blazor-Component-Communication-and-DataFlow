@@ -1,0 +1,18 @@
+﻿@page "/cascadingparent"
+
+<CascadingValue Value="messageForCadcadeing">
+    <CascadingValue Value="giftListForCadcadeing">
+        <BlazorNestedDataFlow.Pages.Cascadding.SuperParentChild2 />
+        <BlazorNestedDataFlow.Pages.Cascadding.SuperParentChild3 />
+    </CascadingValue>
+</CascadingValue>
+
+@code {
+    private string messageForCadcadeing = "Thanks for connecting with parent!";
+    private string messageForCadcadeing2 = "Thanks 2!";
+    private List<string> giftListForCadcadeing = new List<string>
+    {
+        "Special Gift 1",
+        "Special Gift 2"
+    };
+}

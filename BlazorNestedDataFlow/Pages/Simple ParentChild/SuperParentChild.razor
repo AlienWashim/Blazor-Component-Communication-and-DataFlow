@@ -1,0 +1,128 @@
+﻿<h3>Child Component</h3>
+
+<MudPaper Elevation="1" Class="mt-2 mb-2">
+    <MudAlert Severity="Severity.Success">Message from parent component</MudAlert>
+</MudPaper>
+
+
+<MudPaper Class="pa-4 mb-2" Elevation="2">
+    <MudStack Spacing="2">
+        <MudChip T="string" Icon="@Icons.Material.Filled.Chat" Label="true" Color="Color.Info">
+            @message
+        </MudChip>
+    </MudStack>
+
+    <MudStack Class="mt-4">
+        <MudButton OnClick="ToggleMessageReplyVisibility" Color="Color.Secondary" Variant="Variant.Filled">
+            @(_isMessageReplyVisible ? "Hide Message Reply" : "Reply to Message")
+        </MudButton>
+
+        @if (_isMessageReplyVisible)
+        {
+            <MudStack Row="true">
+                <MudTextField @bind-Value="MessageReply" Label="Reply" Variant="Variant.Outlined" Margin="Margin.Dense" />
+                <MudButton OnClick="SendMessageReply" Color="Color.Secondary" Variant="Variant.Outlined">Send</MudButton>
+            </MudStack>
+        }
+    </MudStack>
+</MudPaper>
+
+
+
+
+<!-- Show the gifts list with expand/collapse functionality -->
+<MudPaper Class="pa-4" Elevation="2">
+    <MudStack Spacing="2">
+        <!-- Button to toggle the visibility of the gifts list -->
+        <MudButton OnClick="OnExpandCollapseClick" Color="Color.Secondary">
+            @(_expanded ? "Hide gifts" : "Show gifts")
+        </MudButton>
+        <MudDivider />
+        <!-- Collapse content -->
+        <MudCollapse Expanded="_expanded">
+            <MudList T="string">
+                @foreach (var item in gift)
+                {
+                    <MudListItem>@item</MudListItem>
+                }
+            </MudList>
+        </MudCollapse>
+    </MudStack>
+
+    <!-- Conditionally render the reply section for gifts -->
+    <MudStack Class="mt-4">
+        <MudButton OnClick="ToggleGiftsReplyVisibility" Color="Color.Tertiary" Variant="Variant.Filled">
+            @(_isGiftsReplyVisible ? "Hide Gifts Reply" : "Reply to Gifts")
+        </MudButton>
+
+        @if (_isGiftsReplyVisible)
+        {
+            <MudStack Row="true">
+                <MudTextField @bind-Value="GiftsReply" Label="Reply" Variant="Variant.Outlined" Margin="Margin.Dense" />
+                <MudButton OnClick="SendGiftsReply" Color="Color.Tertiary" Variant="Variant.Outlined">Send</MudButton>
+            </MudStack>
+        }
+    </MudStack>
+</MudPaper>
+
+
+
+
+
+@code {
+    // State to handle the expand/collapse functionality
+    private bool _expanded = false;
+
+    // Flags to show/hide the message reply and gifts reply text fields
+    private bool _isMessageReplyVisible = false;
+    private bool _isGiftsReplyVisible = false;
+
+    // Parameters passed from the parent component
+    [Parameter] public string message { get; set; }
+    [Parameter] public List<string> gift { get; set; }
+
+    // EventCallbacks to send replies back to the parent
+    [Parameter] public EventCallback<string> OnMessageReceived { get; set; }
+    [Parameter] public EventCallback<string> OnGiftsReceived { get; set; }
+
+    // Variables to store the replies
+    public string MessageReply { get; set; }
+    public string GiftsReply { get; set; }
+
+    // Method to toggle visibility of the gift list
+    private void OnExpandCollapseClick()
+    {
+        _expanded = !_expanded;
+    }
+
+    // Methods to toggle visibility of the reply sections
+    private void ToggleMessageReplyVisibility()
+    {
+        _isMessageReplyVisible = !_isMessageReplyVisible;
+    }
+
+    private void ToggleGiftsReplyVisibility()
+    {
+        _isGiftsReplyVisible = !_isGiftsReplyVisible;
+    }
+
+    // Send reply to parent when message is received
+    private async Task SendMessageReply()
+    {
+        if (!string.IsNullOrEmpty(MessageReply))
+        {
+            await OnMessageReceived.InvokeAsync(MessageReply);
+            MessageReply = string.Empty; // Reset the input field
+        }
+    }
+
+    // Send reply to parent when gifts are received
+    private async Task SendGiftsReply()
+    {
+        if (!string.IsNullOrEmpty(GiftsReply))
+        {
+            await OnGiftsReceived.InvokeAsync(GiftsReply);
+            GiftsReply = string.Empty; // Reset the input field
+        }
+    }
+}

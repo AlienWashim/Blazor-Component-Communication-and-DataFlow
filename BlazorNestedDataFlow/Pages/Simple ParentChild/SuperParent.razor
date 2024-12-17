@@ -1,0 +1,49 @@
+﻿@page "/superparentcomponent"
+
+
+<MudPaper Elevation="1" Class="p-2 p-2 mt-2">
+    <h3>Super Parent</h3>
+    <MudIcon Icon="@Icons.Material.Filled.SwipeDownAlt"></MudIcon>
+
+    <!-- Pass the message and gift list to the child -->
+    <SuperParentChild message="@message" gift="@giftList"
+                      OnMessageReceived="@ReceiveMessageReply"
+                      OnGiftsReceived="@ReceiveGiftsReply">
+    </SuperParentChild>
+</MudPaper>
+
+<MudStack Row="true" Class="mt-2">
+    <MudStack>
+        <MudPaper><MudAlert Severity="Severity.Success">Replies from the Child</MudAlert></MudPaper>
+    </MudStack>
+    
+
+    <MudStack>
+        <MudChip T="string" Icon="@Icons.Material.Filled.Chat" Label="true" Color="Color.Secondary">@messageReply</MudChip>
+        <MudChip T="string" Icon="@Icons.Material.Filled.Chat" Label="true" Color="Color.Tertiary">@giftsReply</MudChip>
+    </MudStack>
+</MudStack>
+
+@code {
+    // Data to be passed to the child
+    private string message = "Hello my dear child. Here I am sending you some gifts...";
+    private List<string> giftList = new List<string>
+    {
+        "Gift 1", "Gift 2", "Gift 3", "Gift 4", "Gift 5"
+    };
+
+    // Variables to store the replies from the child
+    private string messageReply;
+    private string giftsReply;
+
+    // Event handlers for receiving responses from the child
+    private void ReceiveMessageReply(string reply)
+    {
+        messageReply = reply; // Update the message reply
+    }
+
+    private void ReceiveGiftsReply(string reply)
+    {
+        giftsReply = reply; // Update the gifts reply
+    }
+}
