@@ -1049,6 +1049,7 @@ D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\D
 D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\refint\BlazorNestedDataFlow.dll
 D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\BlazorNestedDataFlow.pdb
 D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\ref\BlazorNestedDataFlow.dll
-D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\jwgayow0wt-iltez2qxw0.gz
-D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\wot587aodc-07xhsm5hjn.gz
-D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\m4c8941p3a-bi4jdudp0i.gz
+D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\BlazorNestedDataFlow.sourcelink.json
+D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\jwgayow0wt-tkkm1ka09e.gz
+D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\wot587aodc-lrj3zgsai1.gz
+D:\Washim\Visual Studio Projects\BlazorNestedDataFlow\BlazorNestedDataFlow\obj\Debug\net8.0\compressed\m4c8941p3a-qjf2kumqoq.gz

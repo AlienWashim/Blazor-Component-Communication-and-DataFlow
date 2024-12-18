@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6d79PSGGw3muIaU2zZzPnRcjT5hGDssevirotkYYp3w=",
+  "Hash": "E+fo/hxO1EoMx3jhsMXF5V02wszSYLmCyg0csV/DDm8=",
   "Source": "BlazorNestedDataFlow",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "bi4jdudp0i",
-      "Integrity": "be21uA8cil3cO39HXyW7h/vxO4wySPWpHVQbJHoHoVw=",
+      "Fingerprint": "qjf2kumqoq",
+      "Integrity": "Nmd/+F83HatBbVB+eDINEs7Beqwb1lCooo3V5Bn+AXw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "07xhsm5hjn",
-      "Integrity": "tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk=",
+      "Fingerprint": "lrj3zgsai1",
+      "Integrity": "L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\BlazorNestedDataFlow.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "iltez2qxw0",
-      "Integrity": "qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo=",
+      "Fingerprint": "tkkm1ka09e",
+      "Integrity": "rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\webcil\\BlazorNestedDataFlow.wasm"
@@ -6800,7 +6800,7 @@
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.Primitives.wasm"
     },
     {
-      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-iltez2qxw0.gz",
+      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-tkkm1ka09e.gz",
       "SourceId": "BlazorNestedDataFlow",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\",
@@ -6814,8 +6814,8 @@
       "RelatedAsset": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorNestedDataFlow.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cb8eg8414m",
-      "Integrity": "aC6wJPaHdtLT5CU2Ia/+sGM04MpbHAEOwYT/HRI93Ls=",
+      "Fingerprint": "9zrl0unzwn",
+      "Integrity": "Gxf4GTzQcByelPUSNE2HeJ5FiS+ybAvlIe6HKz+gVaA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorNestedDataFlow.wasm"
@@ -7136,7 +7136,7 @@
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.wasm"
     },
     {
-      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-bi4jdudp0i.gz",
+      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-qjf2kumqoq.gz",
       "SourceId": "BlazorNestedDataFlow",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\",
@@ -7150,8 +7150,8 @@
       "RelatedAsset": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2a209ywppw",
-      "Integrity": "dkMgynsH4EHHrBPp1itUPnhpBPOEgtuUJYBn70Mr5vw=",
+      "Fingerprint": "7nl4k51pt8",
+      "Integrity": "k145eWls38pphN26LpM1mHJYfluQl7ygkv1XgsokI/U=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8396,7 +8396,7 @@
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.wasm"
     },
     {
-      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-07xhsm5hjn.gz",
+      "Identity": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-lrj3zgsai1.gz",
       "SourceId": "BlazorNestedDataFlow",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\",
@@ -8410,8 +8410,8 @@
       "RelatedAsset": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorNestedDataFlow.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pl5tl3mor1",
-      "Integrity": "nUKvUzucTsgLUKdTzRWyAK0VwjTvU1GuGG8GoE9N28M=",
+      "Fingerprint": "ci14jjgb5d",
+      "Integrity": "pL/aQCyPs9YcUOPJjOtrq6ag0vmMWMLOmEflMSEhRTI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorNestedDataFlow.pdb"
@@ -9057,7 +9057,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"be21uA8cil3cO39HXyW7h/vxO4wySPWpHVQbJHoHoVw=\""
+          "Value": "\"Nmd/+F83HatBbVB+eDINEs7Beqwb1lCooo3V5Bn+AXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 12:34:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nmd/+F83HatBbVB+eDINEs7Beqwb1lCooo3V5Bn+AXw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-qjf2kumqoq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111333779"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k145eWls38pphN26LpM1mHJYfluQl7ygkv1XgsokI/U=\""
         },
         {
           "Name": "Last-Modified",
@@ -9066,45 +9105,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-be21uA8cil3cO39HXyW7h/vxO4wySPWpHVQbJHoHoVw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-bi4jdudp0i.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000111358575"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8979"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dkMgynsH4EHHrBPp1itUPnhpBPOEgtuUJYBn70Mr5vw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9120,19 +9120,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"be21uA8cil3cO39HXyW7h/vxO4wySPWpHVQbJHoHoVw=\""
+          "Value": "W/\"Nmd/+F83HatBbVB+eDINEs7Beqwb1lCooo3V5Bn+AXw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-be21uA8cil3cO39HXyW7h/vxO4wySPWpHVQbJHoHoVw="
+          "Value": "sha256-Nmd/+F83HatBbVB+eDINEs7Beqwb1lCooo3V5Bn+AXw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-bi4jdudp0i.gz",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\m4c8941p3a-qjf2kumqoq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9141,7 +9141,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8979"
+          "Value": "8981"
         },
         {
           "Name": "Content-Type",
@@ -9149,11 +9149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dkMgynsH4EHHrBPp1itUPnhpBPOEgtuUJYBn70Mr5vw=\""
+          "Value": "\"k145eWls38pphN26LpM1mHJYfluQl7ygkv1XgsokI/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:25 GMT"
+          "Value": "Tue, 17 Dec 2024 11:11:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9171,7 +9171,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dkMgynsH4EHHrBPp1itUPnhpBPOEgtuUJYBn70Mr5vw="
+          "Value": "sha256-k145eWls38pphN26LpM1mHJYfluQl7ygkv1XgsokI/U="
         }
       ]
     },
@@ -9323,7 +9323,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41648"
+          "Value": "41508"
         },
         {
           "Name": "Content-Type",
@@ -9331,7 +9331,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk=\""
+          "Value": "\"L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 12:34:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorNestedDataFlow.pdb",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-lrj3zgsai1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030302112"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33000"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pL/aQCyPs9YcUOPJjOtrq6ag0vmMWMLOmEflMSEhRTI=\""
         },
         {
           "Name": "Last-Modified",
@@ -9340,45 +9379,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorNestedDataFlow.pdb",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-07xhsm5hjn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000030439547"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32851"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nUKvUzucTsgLUKdTzRWyAK0VwjTvU1GuGG8GoE9N28M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9394,19 +9394,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk=\""
+          "Value": "W/\"L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk="
+          "Value": "sha256-L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs="
         }
       ]
     },
     {
       "Route": "_framework/BlazorNestedDataFlow.pdb.gz",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-07xhsm5hjn.gz",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\wot587aodc-lrj3zgsai1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9415,7 +9415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32851"
+          "Value": "33000"
         },
         {
           "Name": "Content-Type",
@@ -9423,11 +9423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nUKvUzucTsgLUKdTzRWyAK0VwjTvU1GuGG8GoE9N28M=\""
+          "Value": "\"pL/aQCyPs9YcUOPJjOtrq6ag0vmMWMLOmEflMSEhRTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:24 GMT"
+          "Value": "Tue, 17 Dec 2024 11:11:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9445,7 +9445,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nUKvUzucTsgLUKdTzRWyAK0VwjTvU1GuGG8GoE9N28M="
+          "Value": "sha256-pL/aQCyPs9YcUOPJjOtrq6ag0vmMWMLOmEflMSEhRTI="
         }
       ]
     },
@@ -9468,7 +9468,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo=\""
+          "Value": "\"rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 12:34:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorNestedDataFlow.wasm",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-tkkm1ka09e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000070047632"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14275"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gxf4GTzQcByelPUSNE2HeJ5FiS+ybAvlIe6HKz+gVaA=\""
         },
         {
           "Name": "Last-Modified",
@@ -9477,45 +9516,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorNestedDataFlow.wasm",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-iltez2qxw0.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000070776417"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14128"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aC6wJPaHdtLT5CU2Ia/+sGM04MpbHAEOwYT/HRI93Ls=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9531,19 +9531,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo=\""
+          "Value": "W/\"rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo="
+          "Value": "sha256-rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg="
         }
       ]
     },
     {
       "Route": "_framework/BlazorNestedDataFlow.wasm.gz",
-      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-iltez2qxw0.gz",
+      "AssetFile": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\obj\\Debug\\net8.0\\compressed\\jwgayow0wt-tkkm1ka09e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9552,7 +9552,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14128"
+          "Value": "14275"
         },
         {
           "Name": "Content-Type",
@@ -9560,11 +9560,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aC6wJPaHdtLT5CU2Ia/+sGM04MpbHAEOwYT/HRI93Ls=\""
+          "Value": "\"Gxf4GTzQcByelPUSNE2HeJ5FiS+ybAvlIe6HKz+gVaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 11:08:24 GMT"
+          "Value": "Tue, 17 Dec 2024 11:11:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9582,7 +9582,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aC6wJPaHdtLT5CU2Ia/+sGM04MpbHAEOwYT/HRI93Ls="
+          "Value": "sha256-Gxf4GTzQcByelPUSNE2HeJ5FiS+ybAvlIe6HKz+gVaA="
         }
       ]
     },

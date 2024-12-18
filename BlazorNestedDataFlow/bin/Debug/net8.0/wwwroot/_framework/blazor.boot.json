@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorNestedDataFlow",
   "resources": {
-    "hash": "sha256-oxdUaeUC+BfSt9DK8JVKQDC26em+csAmIKarQhbSLq4=",
+    "hash": "sha256-UqHCjVd/hld4U6zAHjbDUqfr5P7HMnXeeMMFvu3xYU4=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -212,10 +212,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "BlazorNestedDataFlow.wasm": "sha256-qkchNV5P5IGz6FdNAMl4qyICXBU8JDBCWbCws2GKdyo="
+      "BlazorNestedDataFlow.wasm": "sha256-rSJ2VIujM9VE6NJcITdpEGyQJPXIwXxtvijiQ7Odogg="
     },
     "pdb": {
-      "BlazorNestedDataFlow.pdb": "sha256-tPl+7MiGkDOXst4Q5jNmWXzInpMLCINGtsGFNToMTsk="
+      "BlazorNestedDataFlow.pdb": "sha256-L/a3QXTOxL+Y2nUP1p71IOGogkPmvmQasohkZjic1Rs="
     }
   },
   "cacheBootResources": true,

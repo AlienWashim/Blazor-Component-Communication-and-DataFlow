@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|d:\\washim\\visual studio projects\\blazornesteddataflow\\blazornesteddataflow\\pages\\simple parentchild\\superparent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|solutionrelative:blazornesteddataflow\\pages\\simple parentchild\\superparent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|d:\\washim\\visual studio projects\\blazornesteddataflow\\blazornesteddataflow\\pages\\servicecomponent\\childservice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|solutionrelative:blazornesteddataflow\\pages\\servicecomponent\\childservice.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|solutionrelative:blazornesteddataflow\\pages\\cascadding\\cascadingparent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|d:\\washim\\visual studio projects\\blazornesteddataflow\\blazornesteddataflow\\pages\\simple parentchild\\superparent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|solutionrelative:blazornesteddataflow\\pages\\simple parentchild\\superparent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|d:\\washim\\visual studio projects\\blazornesteddataflow\\blazornesteddataflow\\pages\\simple parentchild\\superparentchild.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{02AE14EE-1E9E-4757-BB90-BE73A516D210}|BlazorNestedDataFlow\\BlazorNestedDataFlow.csproj|solutionrelative:blazornesteddataflow\\pages\\simple parentchild\\superparentchild.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -66,37 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ParentServiceComponent.razor",
-              "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
-              "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
-              "ToolTip": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
-              "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T10:50:51.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ChildService.razor",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ChildService.razor",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ChildService.razor",
               "ToolTip": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ChildService.razor",
               "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ChildService.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-17T10:49:40.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GiftService.cs",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Services\\GiftService.cs",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Services\\GiftService.cs",
@@ -104,12 +91,11 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Services\\GiftService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T10:46:13.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T10:46:13.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SuperParentChild3.razor",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild3.razor",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild3.razor",
@@ -117,8 +103,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild3.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T10:39:23.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T10:39:23.841Z"
             },
             {
               "$type": "Document",
@@ -130,12 +115,11 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParentChild.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:31:06.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:31:06.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Layout\\NavMenu.razor",
@@ -143,12 +127,36 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAB8AAAAAAAAAAAAmwCkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:23:50.558Z",
+              "WhenOpened": "2024-12-17T08:23:50.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuperParent.razor",
+              "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
+              "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
+              "ToolTip": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
+              "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T08:28:55.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "ParentServiceComponent.razor",
+              "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
+              "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
+              "ToolTip": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
+              "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\ServiceComponent\\ParentServiceComponent.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T10:50:51.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SuperParentChild2.razor",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild2.razor",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild2.razor",
@@ -156,25 +164,11 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Cascadding\\SuperParentChild2.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T09:42:17.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T09:42:17.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SuperParent.razor",
-              "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
-              "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
-              "ToolTip": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
-              "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Simple ParentChild\\SuperParent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:28:55.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Program.cs",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Program.cs",
@@ -182,12 +176,11 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T08:25:00.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:25:00.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CascadingParent.razor",
               "DocumentMoniker": "D:\\Washim\\Visual Studio Projects\\BlazorNestedDataFlow\\BlazorNestedDataFlow\\Pages\\Cascadding\\CascadingParent.razor",
               "RelativeDocumentMoniker": "BlazorNestedDataFlow\\Pages\\Cascadding\\CascadingParent.razor",
@@ -195,8 +188,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Pages\\Cascadding\\CascadingParent.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T09:55:43.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T09:55:43.672Z"
             },
             {
               "$type": "Document",
@@ -208,8 +200,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-17T08:24:40.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:24:40.97Z"
             },
             {
               "$type": "Document",
@@ -221,8 +212,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:23:51.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:23:51.525Z"
             },
             {
               "$type": "Document",
@@ -234,8 +224,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:23:49.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:23:49.125Z"
             },
             {
               "$type": "Document",
@@ -247,8 +236,7 @@
               "RelativeToolTip": "BlazorNestedDataFlow\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T08:23:46.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T08:23:46.633Z"
             }
           ]
         }
