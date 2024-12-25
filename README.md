@@ -7,6 +7,9 @@ Welcome to the Blazor Component Communication and Dataflow repository! This proj
 * **Cascading Parameters**: Sharing data across multiple components without direct reference.
 * **Services**: Facilitating communication between non-related components.
 
+### Watch This Video to Better Understand the Topic
+[Watch the video here](https://www.youtube.com/watch?v=4HUGbaz-Leo)
+
 ## Add the following in your project wwwroot folder -> index.html file's head section:
 ```csharp
 <!-- Add MudBlazor CSS -->
